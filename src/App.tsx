@@ -4,12 +4,7 @@ import TodoApp from "./containers/TodoApp";
 import TodoInsert from "./components/TodoInsert";
 
 function App() {
-  return (
-    <>
-      <CounterContainer />
-      <TodoApp />
-    </>
-  );
+  return <></>;
 }
 
 export default App;

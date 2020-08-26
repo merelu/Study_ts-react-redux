@@ -1,10 +1,12 @@
 import counter from "./counter";
 import todos from "./todos";
+import github from "./github";
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({
   counter,
   todos,
+  github,
 });
 
 //루트 리듀서를 내보내주세요
